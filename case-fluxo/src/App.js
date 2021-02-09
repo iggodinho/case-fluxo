@@ -8,7 +8,7 @@ export default function App(){
     <div>
       <HeaderContainer/>
       <ShoppingList/>
-      <Footer/>
+      //<Footer/>
     </div>
   );
 }
