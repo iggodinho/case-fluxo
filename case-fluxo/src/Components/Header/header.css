@@ -1,0 +1,65 @@
+body,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #222222;
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+.header-bg {
+  background-color: #cfeedc;
+  height: 95px;
+}
+.header {
+  
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 85px;
+  height: 90px;
+  color: darkgreen;
+  margin-left: 10px;
+}
+.icons ul{
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.icon{
+  color:darkgreen;
+  width: 35px;
+  height: 35px;
+  
+}
+#pesquisar{
+  height: 45px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+

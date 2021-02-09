@@ -1,0 +1,29 @@
+.nav-bg {
+  background-color: #89c79e;
+}
+.nav {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+.nav a {
+  display: block;
+  padding: 10px;
+  padding-left: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+}
+.nav a:hover {
+  color: #507357;
+}
+.nav a:visited,
+.nav a:active {
+  border-radius: 10px;
+  background-color: white;
+}
