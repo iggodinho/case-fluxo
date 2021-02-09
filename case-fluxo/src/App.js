@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header/header';
-import Nav from './Components/Nav/nav';
+import HeaderContainer from './Components/Header-container/header-container';
+import ShoppingList from './Components/ShoppingList/shoppinglist';
 export default function App(){
   return(
     <div>
-      <Header/>
-      <Nav/>
+      <HeaderContainer/>
+      <ShoppingList/>
     </div>
   );
 }

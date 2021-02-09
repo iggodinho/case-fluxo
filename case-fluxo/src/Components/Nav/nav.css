@@ -1,5 +1,5 @@
 .nav-bg {
-  background-color: #89c79e;
+  background-color: seagreen;
 }
 .nav {
   max-width: 960px;
@@ -19,11 +19,9 @@
   color: white;
   font-weight: bolder;
 }
+
 .nav a:hover {
-  color: #507357;
-}
-.nav a:visited,
-.nav a:active {
   border-radius: 10px;
   background-color: white;
+  color: seagreen;
 }
