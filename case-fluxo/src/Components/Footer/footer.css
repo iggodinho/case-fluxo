@@ -1,4 +1,27 @@
 .footer-bg{
-  background-color: lightgreen;
-  height: 100px;
+  margin-top: 20px;
+  height: 90px;
+  background-color: seagreen;
+}
+
+.footer{
+  max-width: 960px;
+  margin-top: 10px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-top: 10px;
+  
+}
+
+.footer-info{
+  display: flex;
+}
+
+.footer-icon{
+  width:30px;
+  height: 30px;
+  cursor: pointer;
 }
