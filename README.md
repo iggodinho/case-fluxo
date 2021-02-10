@@ -1,5 +1,6 @@
 # case-fluxo
 
+Footer: Informações genéricas para o endereço, telefone e email.
 
 DONE:
 Página de produtos com header e footer. Funcionalidade de adicionar produto e remover em cada produto.
