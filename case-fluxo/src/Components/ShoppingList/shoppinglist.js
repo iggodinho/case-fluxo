@@ -21,9 +21,9 @@ import Product from '../Product/product';
 export default function ShoppingList({}){
   const list=[
     {
-      name:'Cebola Picada',
+      name:'Cebola Picada(350g)',
       price: 6.50,
-      type:'350g',
+      type:'Contém aditivos',
       image: OnionCut,
       id:1
     },

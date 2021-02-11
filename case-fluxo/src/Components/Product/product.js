@@ -3,7 +3,7 @@ import './product.css';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import Cart from '../Cart/cart';
 import { IoIosRemoveCircle } from 'react-icons/io';
-import Total from '../Total/total';
+
 
 
 export default function Product({name,price,type,image,id}){
