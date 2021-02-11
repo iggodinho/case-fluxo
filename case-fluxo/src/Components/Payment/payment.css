@@ -1,7 +1,8 @@
-#payment-total{
+.payment-info{
+  
   color: darkgreen;
 }
-#payment-name,#payment-adress,#payment-email,#payment-city,#payment-credit-number,#payment-credit-date,#payment-credit-security{
+#payment-name,#payment-adress,#payment-city,#payment-credit-number,#payment-credit-date,#payment-credit-security{
   width: 90%;
   height: 35px;
   margin-bottom: 3%;
@@ -30,5 +31,5 @@
   background-color: #baffca;
 }
 .payment form{
-  margin-top: 10px;
+  margin-top: 5px;
 }

@@ -32,98 +32,98 @@ export default function ShoppingList({}){
       price: 12.30,
       type:'Fruta',
       image: Pineapple,
-      id:1
+      id:2
     },
     {
       name:'Alface',
       price: 9.65,
       type:'Vegetal',
       image: Lettuce,
-      id:2
+      id:3
     },
     {
       name:'Banana',
       price: 6.95,
       type:'Fruta',
       image: Banana,
-      id:3
+      id:4
     },
     {
       name:'Batata doce',
       price: 10.50,
       type:'Legume',
       image: Potato,
-      id:4
+      id:5
     },
     {
       name:'Cebola',
       price: 12.30,
       type:'Legume',
       image: Onion,
-      id:5
+      id:6
     },
     {
       name:'Cenoura',
       price: 5.90,
       type:'Legume',
       image: Carrot,
-      id:6
+      id:7
     },
     {
       name:'Inhame',
       price: 13.00,
       type:'Legume',
       image: Yam,
-      id:7
+      id:8
     },
     {
       name:'Kiwi',
       price: 11.15,
       type:'Fruta',
       image: Kiwi,
-      id:8
+      id:9
     },
     {
       name:'Limão',
       price: 4.40,
       type:'Fruta',
       image: Lemon,
-      id:9
+      id:10
     },
     {
       name:'Melão',
       price: 14.60,
       type:'Fruta',
       image: Melon,
-      id:10
+      id:11
     },
     {
       name:'Morango',
       price: 9.35,
       type:'Fruta',
       image: Strawberry,
-      id:11
+      id:12
     },
     {
       name:'Pimentão',
       price: 12.30,
       type:'Legume',
       image: Pepper,
-      id:12
+      id:13
     },
     {
       name:'Tomate',
       price: 8.30,
       type:'Legume',
       image: Tomatoe,
-      id:13
+      id:14
     },
     {
       name:'Uva',
       price: 3.50,
       type:'Fruta',
       image: Grape,
-      id:14
+      id:15
     }
   ]
   const renderList = list.map((item) => (

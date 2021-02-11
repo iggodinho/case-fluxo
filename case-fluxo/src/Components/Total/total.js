@@ -12,3 +12,6 @@ export default function Total({qtd,name,price}){
     </div>
   );
 }
+
+/*Component pra mostrar a quantidade de tal item adicionado no carrinho e o preço total, como a informação seria passada pra outro component que não é filho, provavelmente não é algo que eu vou conseguir fazer com o conhecimento passado até agora, voltar nessa questão depois caso dê tempo.
+*/
