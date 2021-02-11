@@ -33,18 +33,3 @@
   height: 200px;
   resize: none;
 }
-#contact-submit{
-  width: 90%;
-  height: 35px;
-  margin-bottom: 3%;
-  border: 1px solid springgreen;
-  border-radius: 3px;
-  background-color: lightgreen;
-  color: seagreen;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-}
-#contact-submit:hover{
-  opacity: 80%;
-}

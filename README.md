@@ -7,6 +7,7 @@ DONE:
 -Navegação entre as páginas utilizando as rotas.
 -Página inicial
 -Página de contato
+-Página de login, criar conta e esqueci a senha
 
 TO DO:
-Página de Login;  Funcionalidade da barra de pesquisa; Página do carrinho, contendo os produtos que foram adicionados na página de produtos.
+Funcionalidade da barra de pesquisa; Página do carrinho, contendo os produtos que foram adicionados na página de produtos.

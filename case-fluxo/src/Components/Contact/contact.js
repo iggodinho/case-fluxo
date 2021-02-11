@@ -10,7 +10,7 @@ export default function Contact(){
         <input id="contact-email" placeholder="Email"/>
         <input id="contact-subject" placeholder="Assunto" />
         <textarea  id="contact-text" type="text" placeholder="Digite sua mensagem" />
-        <input type="submit" value="Enviar" id='contact-submit'/>
+        <input type="submit" value="Enviar" className='send-button'/>
       </div>
       
     </div>

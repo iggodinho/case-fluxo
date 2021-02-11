@@ -1,0 +1,16 @@
+.back-to-login{
+  width: 35px;
+  height: 35px;
+}
+#newlogin-user,#newlogin-password,#newlogin-cpf,#newlogin-email{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid seagreen;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+.new-login{
+  margin-left: 30px;
+}

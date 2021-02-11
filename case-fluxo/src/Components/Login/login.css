@@ -1,0 +1,52 @@
+.login-bg{
+  height: 435px;
+}
+
+.login{
+  margin: 0 auto;
+  margin-top:80px;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px seagreen;
+  width: 25%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #baffca;
+}
+
+#login-user,#login-password{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid seagreen;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+
+.send-button{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid springgreen;
+  border-radius: 3px;
+  background-color: lightgreen;
+  color: seagreen;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.send-button:hover{
+  opacity: 80%;
+}
+
+.link:active,.link:hover,.link{
+  text-decoration: none;
+  color: black;
+}
+#password-button{
+  border-top: 1px solid springgreen;
+}

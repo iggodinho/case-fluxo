@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
-import {IoHandRightOutline} from 'react-icons/io5'
-import {BsArrowRightShort} from 'react-icons/bs'
+import {IoHandRightOutline} from 'react-icons/io5';
+import {BsArrowRightShort} from 'react-icons/bs';
 
 
 export default function Home(){
