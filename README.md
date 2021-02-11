@@ -1,6 +1,6 @@
 # case-fluxo #
 
-**DONE:**
+**DONE:**<br/>
 -Footer, Header, Nav<br/>
 -Página de produtos. Funcionalidade de adicionar produto e remover em cada produto.<br/>
 -Navegação entre as páginas utilizando as rotas.<br/>
