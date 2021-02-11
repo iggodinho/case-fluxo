@@ -4,7 +4,6 @@ import Onion from '../../Assets/cebola.jpg';
 import Tomatoe from '../../Assets/tomate.jpg';
 import Lettuce from '../../Assets/alface.jpg';
 import Carrot from '../../Assets/cenoura.jpg';
-import Inhame from '../../Assets/inhame.jpg';
 import Banana from '../../Assets/banana.jpg';
 import Potato from '../../Assets/batata.jpg';
 import Pineapple from '../../Assets/abacaxi.jpg';
@@ -121,7 +120,7 @@ export default function ShoppingList({}){
     }
   ]
   const renderList = list.map((item) => (
-    <Product name={item.name}  price={item.price} type={item.type} image={item.image} id={item.id}/>
+    <Product name={item.name}  price={item.price} type={item.type} image={item.image} id={item.id} key={item.id.toString()}/>
     ));
     
   return(

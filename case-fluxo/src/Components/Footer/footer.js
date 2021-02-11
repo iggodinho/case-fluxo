@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './footer.css';
 import {AiOutlineMail,AiOutlinePhone,AiOutlineInstagram,AiOutlineFacebook,AiOutlineWhatsApp} from 'react-icons/ai';
 import {FaTelegramPlane} from 'react-icons/fa';
@@ -8,7 +9,7 @@ export default function Footer(){
       <div className='footer'>
             <div className="footer-left">
                 <p>Rua Paraiso das Garças, 1678 - Humaitá</p>
-                <p><AiOutlineMail className='footer-mail'/> contato@gmail.com</p>
+                <p><AiOutlineMail className='footer-mail'/> superfruti@gmail.com</p>
                 <p><AiOutlinePhone/>(21)3292-5400 </p>
             </div>
             <div className="footer-center">

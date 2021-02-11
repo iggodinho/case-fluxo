@@ -1,0 +1,50 @@
+.contact-bg{
+  height: 435px;
+}
+.contact{
+  margin: 0 auto;
+  margin-top:80px;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px seagreen;
+  width: 25%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #baffca;
+}
+#contact-email,#contact-subject,#contact-text{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid seagreen;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+#contact-email{
+  margin-top: 10px;
+}
+#contact-text{
+  text-align: left;
+  overflow-y: scroll;
+  height: 200px;
+  resize: none;
+}
+#contact-submit{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid springgreen;
+  border-radius: 3px;
+  background-color: lightgreen;
+  color: seagreen;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+#contact-submit:hover{
+  opacity: 80%;
+}
