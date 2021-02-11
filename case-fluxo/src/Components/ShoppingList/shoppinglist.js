@@ -14,13 +14,20 @@ import Melon from '../../Assets/melao.jpg';
 import Strawberry from '../../Assets/morango.jpg';
 import Pepper from '../../Assets/pimentao.jpg';
 import Grape from '../../Assets/uva.jpg';
-
+import OnionCut from '../../Assets/cebola-picada.png'
 
 
 import Product from '../Product/product';
 export default function ShoppingList({}){
   const list=[
     {
+      name:'Cebola Picada',
+      price: 6.50,
+      type:'350g',
+      image: OnionCut,
+      id:1
+    },
+    { 
       name:'Abacaxi',
       price: 12.30,
       type:'Fruta',

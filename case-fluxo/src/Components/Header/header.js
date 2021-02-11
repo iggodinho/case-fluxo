@@ -18,7 +18,7 @@ export default function Header(){
         <div className='icons'>
           <ul>
             <li><Link to='/login'><IoPersonOutline className='icon' id='header-user'/></Link></li>
-            <li><a href="#cart"><AiOutlineShoppingCart className='icon' id='header-cart'/></a></li>
+            <li><Link to='/pagamento'><AiOutlineShoppingCart className='icon' id='header-cart'/></Link></li>
           </ul>
         </div>
       </div>

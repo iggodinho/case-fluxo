@@ -6,6 +6,7 @@ import ContactPage from './pages/contact-page';
 import LoginPage from './pages/login-page';
 import NewLoginPage from './pages/newlogin-page';
 import ForgotPasswordPage from './pages/forgotpassword-page';
+import PaymentPage from './pages/payment-page';
 
 export default function Routes(){
   return(
@@ -16,8 +17,10 @@ export default function Routes(){
         <Route path='/produtos' component={ProductPage}/>
         <Route path='/login' component={LoginPage}/>
         <Route path='/contato' component={ContactPage}/>
-        <Route path='/new-login' component={NewLoginPage}/>
-        <Route path='/forgot-password' component={ForgotPasswordPage}/>
+        <Route path='/registro' component={NewLoginPage}/>
+        <Route path='/esqueci-a-senha' component={ForgotPasswordPage}/>
+        <Route path='/pagamento' component={PaymentPage}/>
+
       </Switch>
     </BrowserRouter>
     </div>

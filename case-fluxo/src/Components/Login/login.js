@@ -9,8 +9,8 @@ export default function Login(){
         <input id="login-user" placeholder="Email ou nome de usuário"/>
         <input id="login-password" placeholder="Senha" type="password"/>
         <input type="submit" value="Entrar" className="send-button"/>
-        <Link className='link' to='/forgot-password'>Esqueceu sua senha?</Link>
-        <Link className='link' to='/new-login' id='password-button'>Criar nova conta</Link>
+        <Link className='link' to='/esqueci-a-senha'>Esqueceu sua senha?</Link>
+        <Link className='link' to='/registro' id='password-button'>Criar nova conta</Link>
       </div>
   </div>
   );

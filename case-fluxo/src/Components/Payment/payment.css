@@ -1,0 +1,34 @@
+#payment-total{
+  color: darkgreen;
+}
+#payment-name,#payment-adress,#payment-email,#payment-city,#payment-credit-number,#payment-credit-date,#payment-credit-security{
+  width: 90%;
+  height: 35px;
+  margin-bottom: 3%;
+  border: 1px solid seagreen;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+}
+.payment-bg{
+  height: 600px;
+  margin-bottom: -110px;
+}
+.payment{
+  margin: 0 auto;
+  margin-top:40px;
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px seagreen;
+  width: 25%;
+  height: 70%;
+  margin-bottom: 0;
+  border-radius: 10px;
+  background-color: #baffca;
+}
+.payment form{
+  margin-top: 10px;
+}

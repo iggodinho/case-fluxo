@@ -8,6 +8,6 @@ DONE:
 -Página inicial
 -Página de contato
 -Página de login, criar conta e esqueci a senha
+-Página de pagamento
 
-TO DO:
-Funcionalidade da barra de pesquisa; Página do carrinho, contendo os produtos que foram adicionados na página de produtos.
+
